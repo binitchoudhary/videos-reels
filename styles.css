@@ -1,0 +1,100 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  /* height: 120%; */
+  overflow: hidden;
+}
+
+.video-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.video-carousel {
+  display: flex;
+  align-items: center;
+}
+
+.video {
+  position: relative;
+  margin: 0 10px;
+}
+
+.youtube-video {
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 8rem;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+
+.speaker-btn {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.video-title {
+  color: #000;
+  text-align: center;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.prev-btn {
+  left: 0;
+  z-index: 99;
+}
+
+.next-btn {
+  right: 0;
+}
+.lang{
+  background: #000;
+  color: #FFF;
+  font-weight: 600;
+  padding: 0.3rem;
+  position: absolute;
+}
+.product-link{
+  text-align: center;
+    border: 1px solid grey;
+    margin-top: -4px;
+}
+
+.product-link a{
+  text-decoration: none;
+  color: #000;
+}
+.shop-now{
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  color: white;
+  background: black;
+}
+
+.shop-now:hover{
+  color: #000;
+  background: #FFF;
+}
